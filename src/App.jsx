@@ -1,11 +1,10 @@
-import React from 'react'
-
+import { useLenis } from "./hooks/useLenis";
+import React from "react";
 const App = () => {
-  return (
-    <div>
-      Hello
-    </div>
-  )
-}
+  useLenis();
+  return <div className="h-[200vh] bg-red-400 ">
 
-export default App
+  </div>;
+};
+
+export default App;
